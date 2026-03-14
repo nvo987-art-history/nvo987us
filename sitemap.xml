@@ -1,20 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
+
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
-<loc>https://nvo987.us</loc>
+<loc>https://nvo987.us/</loc>
 </url>
 
 <url>
-<loc>https://identity.nvo987.us</loc>
+<loc>https://identity.nvo987.us/</loc>
 </url>
 
 <url>
-<loc>https://knowledge.nvo987.us</loc>
+<loc>https://knowledge.nvo987.us/</loc>
 </url>
 
 <url>
-<loc>https://lab.nvo987.us</loc>
+<loc>https://lab.nvo987.us/</loc>
 </url>
 
-</urlset> 
+<url>
+<loc>https://nvo987.fr/</loc>
+</url>
+
+</urlset>
