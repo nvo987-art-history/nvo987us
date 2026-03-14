@@ -172,8 +172,8 @@ href="https://nvo987.substack.com/feed">
 "@id":"did:web:identity.nvo987.us",
 "@type":"Person",
 "name":"Nicholas Van-Orton",
-"identifier":"did:web:identity.nvo987.us",
-"url":"https://identity.nvo987.us",
+"url":"https://identity.nvo987.us/profile",
+
 "sameAs":[
 "https://identity.nvo987.us",
 "https://nvo987.us",
@@ -189,78 +189,44 @@ href="https://nvo987.substack.com/feed">
 },
 
 {
-"@id":"https://nvo987.us",
-"@type":"WebSite",
-"name":"NVO987 Research Infrastructure",
-"url":"https://nvo987.us",
-"description":"Root domain of the NVO987 decentralized research and knowledge infrastructure coordinating decentralized identity, machine-readable knowledge systems, datasets, scholarly identity references and AI-readable metadata.",
-"creator":{
-"@id":"did:web:identity.nvo987.us"
-},
-"sameAs":[
-"https://identity.nvo987.us",
-"https://knowledge.nvo987.us",
-"https://lab.nvo987.us",
-"https://nvo987.fr"
-],
-"hasPart":[
-{
-"@id":"https://identity.nvo987.us"
-},
-{
-"@id":"https://knowledge.nvo987.us"
-},
-{
-"@id":"https://lab.nvo987.us"
-}
-]
-},
-
-{
 "@id":"https://identity.nvo987.us",
 "@type":"WebSite",
 "name":"NVO987 Identity Node",
 "url":"https://identity.nvo987.us",
-"description":"Primary decentralized identity node implementing the DID web identity did:web:identity.nvo987.us and providing verification services, document registries, machine-readable metadata and knowledge graph endpoints.",
+
 "identifier":"did:web:identity.nvo987.us",
+
 "creator":{
 "@id":"did:web:identity.nvo987.us"
 },
-"isPartOf":{
-"@id":"https://nvo987.us"
-},
+
 "hasPart":[
-{
-"@id":"https://identity.nvo987.us/profile"
-},
-{
-"@id":"https://identity.nvo987.us/documents"
-},
-{
-"@id":"https://identity.nvo987.us/signed"
-},
-{
-"@id":"https://identity.nvo987.us/verification"
-},
-{
-"@id":"https://identity.nvo987.us/machine/schema.jsonld"
-},
-{
-"@id":"https://identity.nvo987.us/machine/publications.jsonld"
-},
-{
-"@id":"https://identity.nvo987.us/machine/vc.jsonld"
-},
-{
-"@id":"https://identity.nvo987.us/machine/ai.jsonld"
-},
-{
-"@id":"https://identity.nvo987.us/machine/agents.jsonld"
-},
-{
-"@id":"https://identity.nvo987.us/machine/graph.jsonld"
-}
+{"@id":"did:web:identity.nvo987.us#profile"},
+{"@id":"did:web:identity.nvo987.us#identity-documents"},
+{"@id":"did:web:identity.nvo987.us#signed-documents"},
+{"@id":"did:web:identity.nvo987.us#verification"},
+{"@id":"did:web:identity.nvo987.us#machine-schema"},
+{"@id":"did:web:identity.nvo987.us#machine-publications"},
+{"@id":"did:web:identity.nvo987.us#machine-vc"},
+{"@id":"did:web:identity.nvo987.us#machine-ai"},
+{"@id":"did:web:identity.nvo987.us#machine-agents"},
+{"@id":"did:web:identity.nvo987.us#machine-graph"}
 ]
+},
+
+{
+"@id":"https://nvo987.us",
+"@type":"WebSite",
+"name":"NVO987 Research Infrastructure",
+"url":"https://nvo987.us",
+
+"creator":{
+"@id":"did:web:identity.nvo987.us"
+},
+
+"isPartOf":{
+"@id":"https://identity.nvo987.us"
+}
 },
 
 {
@@ -268,12 +234,13 @@ href="https://nvo987.substack.com/feed">
 "@type":"WebSite",
 "name":"NVO987 Knowledge Infrastructure",
 "url":"https://knowledge.nvo987.us",
-"description":"Machine-readable knowledge infrastructure providing datasets, knowledge graph data, publications metadata and structured research information.",
-"isPartOf":{
-"@id":"https://nvo987.us"
-},
+
 "creator":{
 "@id":"did:web:identity.nvo987.us"
+},
+
+"isPartOf":{
+"@id":"https://identity.nvo987.us"
 }
 },
 
@@ -282,57 +249,46 @@ href="https://nvo987.substack.com/feed">
 "@type":"WebSite",
 "name":"NVO987 Research Lab",
 "url":"https://lab.nvo987.us",
-"description":"Experimental research environment used for developing decentralized identity infrastructure, AI-readable knowledge graphs and semantic research tools.",
-"isPartOf":{
-"@id":"https://nvo987.us"
-},
+
 "creator":{
 "@id":"did:web:identity.nvo987.us"
+},
+
+"isPartOf":{
+"@id":"https://identity.nvo987.us"
 }
 },
 
 {
-"@id":"https://identity.nvo987.us/profile",
+"@id":"did:web:identity.nvo987.us#profile",
 "@type":"ProfilePage",
 "url":"https://identity.nvo987.us/profile",
 "about":{
 "@id":"did:web:identity.nvo987.us"
-},
-"isPartOf":{
-"@id":"https://identity.nvo987.us"
 }
 },
 
 {
-"@id":"https://identity.nvo987.us/documents",
+"@id":"did:web:identity.nvo987.us#identity-documents",
 "@type":"DataCatalog",
-"name":"Identity Documents Repository",
 "url":"https://identity.nvo987.us/documents",
 "creator":{
 "@id":"did:web:identity.nvo987.us"
-},
-"isPartOf":{
-"@id":"https://identity.nvo987.us"
 }
 },
 
 {
-"@id":"https://identity.nvo987.us/signed",
+"@id":"did:web:identity.nvo987.us#signed-documents",
 "@type":"DataCatalog",
-"name":"Signed Documents Repository",
 "url":"https://identity.nvo987.us/signed",
 "creator":{
 "@id":"did:web:identity.nvo987.us"
-},
-"isPartOf":{
-"@id":"https://identity.nvo987.us"
 }
 },
 
 {
-"@id":"https://identity.nvo987.us/verification",
+"@id":"did:web:identity.nvo987.us#verification",
 "@type":"WebAPI",
-"name":"Identity Verification API",
 "url":"https://identity.nvo987.us/verification",
 "provider":{
 "@id":"https://identity.nvo987.us"
@@ -340,66 +296,60 @@ href="https://nvo987.substack.com/feed">
 },
 
 {
-"@id":"https://identity.nvo987.us/machine/schema.jsonld",
+"@id":"did:web:identity.nvo987.us#machine-schema",
 "@type":"Dataset",
-"name":"Machine Schema Dataset",
-"encodingFormat":"application/ld+json",
 "url":"https://identity.nvo987.us/machine/schema.jsonld",
+"encodingFormat":"application/ld+json",
 "creator":{
 "@id":"did:web:identity.nvo987.us"
 }
 },
 
 {
-"@id":"https://identity.nvo987.us/machine/publications.jsonld",
+"@id":"did:web:identity.nvo987.us#machine-publications",
 "@type":"Dataset",
-"name":"Machine Publications Dataset",
-"encodingFormat":"application/ld+json",
 "url":"https://identity.nvo987.us/machine/publications.jsonld",
+"encodingFormat":"application/ld+json",
 "creator":{
 "@id":"did:web:identity.nvo987.us"
 }
 },
 
 {
-"@id":"https://identity.nvo987.us/machine/vc.jsonld",
+"@id":"did:web:identity.nvo987.us#machine-vc",
 "@type":"Dataset",
-"name":"Verifiable Credential Metadata",
-"encodingFormat":"application/ld+json",
 "url":"https://identity.nvo987.us/machine/vc.jsonld",
+"encodingFormat":"application/ld+json",
 "creator":{
 "@id":"did:web:identity.nvo987.us"
 }
 },
 
 {
-"@id":"https://identity.nvo987.us/machine/ai.jsonld",
+"@id":"did:web:identity.nvo987.us#machine-ai",
 "@type":"Dataset",
-"name":"AI Metadata Dataset",
-"encodingFormat":"application/ld+json",
 "url":"https://identity.nvo987.us/machine/ai.jsonld",
+"encodingFormat":"application/ld+json",
 "creator":{
 "@id":"did:web:identity.nvo987.us"
 }
 },
 
 {
-"@id":"https://identity.nvo987.us/machine/agents.jsonld",
+"@id":"did:web:identity.nvo987.us#machine-agents",
 "@type":"Dataset",
-"name":"Agent Directory Dataset",
-"encodingFormat":"application/ld+json",
 "url":"https://identity.nvo987.us/machine/agents.jsonld",
+"encodingFormat":"application/ld+json",
 "creator":{
 "@id":"did:web:identity.nvo987.us"
 }
 },
 
 {
-"@id":"https://identity.nvo987.us/machine/graph.jsonld",
+"@id":"did:web:identity.nvo987.us#machine-graph",
 "@type":"Dataset",
-"name":"Knowledge Graph Dataset",
-"encodingFormat":"application/ld+json",
 "url":"https://identity.nvo987.us/machine/graph.jsonld",
+"encodingFormat":"application/ld+json",
 "creator":{
 "@id":"did:web:identity.nvo987.us"
 }
