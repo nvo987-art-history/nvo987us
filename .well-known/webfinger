@@ -1,0 +1,13 @@
+{
+ "subject": "https://nvo987.us",
+ "links": [
+   {
+     "rel": "self",
+     "href": "https://identity.nvo987.us"
+   },
+   {
+     "rel": "controller",
+     "href": "did:web:identity.nvo987.us"
+   }
+ ]
+}
