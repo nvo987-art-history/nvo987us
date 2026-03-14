@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
 
@@ -27,10 +26,15 @@
 <!-- IDENTITY ANCHOR -->
 
 <meta name="identity-root" content="https://identity.nvo987.us">
+<meta name="identity-authority" content="did:web:identity.nvo987.us">
 <meta name="did" content="did:web:identity.nvo987.us">
 <meta name="knowledge-graph-root" content="https://identity.nvo987.us/machine/graph.jsonld">
 
 <link rel="identity" href="https://identity.nvo987.us">
+<link rel="controller" href="did:web:identity.nvo987.us">
+
+<link rel="service" href="https://identity.nvo987.us">
+<link rel="service" type="application/json" href="https://identity.nvo987.us/api">
 
 <link rel="preconnect" href="https://identity.nvo987.us">
 
@@ -130,7 +134,17 @@ href="https://nvo987.substack.com/feed">
 
 <!-- IDENTITY NODE -->
 
-<link rel="alternate" type="application/did+json" href="https://identity.nvo987.us/.well-known/did.json">
+<link rel="alternate" type="application/did+ld+json" href="https://identity.nvo987.us/.well-known/did.json">
+
+<link rel="alternate" type="application/did+ld+json" href="https://identity.nvo987.us/did.json">
+
+<link rel="self" type="application/did+ld+json" href="https://identity.nvo987.us/.well-known/did.json">
+
+<link rel="webfinger" href="/.well-known/webfinger">
+
+<link rel="agent-directory" href="https://identity.nvo987.us/machine/agents.jsonld">
+
+<link rel="describedby" type="application/ld+json" href="https://identity.nvo987.us/machine/graph.jsonld">
 
 <!-- JSON-LD INFRASTRUCTURE GRAPH -->
 
