@@ -1,0 +1,21 @@
+# NVO987 Research Infrastructure
+
+This site is part of the NVO987 decentralized research infrastructure.
+
+Domain
+https://nvo987.us
+
+Identity node
+https://identity.nvo987.us
+
+Machine-readable metadata
+https://nvo987.us/metadata/infrastructure.jsonld
+
+API description
+https://nvo987.us/api/openapi.json
+
+Documentation
+https://nvo987.us/docs/
+
+Purpose
+Decentralized research infrastructure for identity, knowledge graph publication, and machine-readable research artifacts.
