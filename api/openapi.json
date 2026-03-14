@@ -1,0 +1,32 @@
+{
+  "openapi": "3.0.0",
+  "info": {
+    "title": "NVO987 Research Infrastructure API",
+    "description": "Infrastructure discovery API for the NVO987 decentralized research network.",
+    "version": "1.0.0"
+  },
+  "servers": [
+    {
+      "url": "https://nvo987.us"
+    }
+  ],
+  "paths": {
+    "/metadata/infrastructure.jsonld": {
+      "get": {
+        "summary": "Infrastructure metadata",
+        "description": "Machine-readable metadata describing the NVO987 research infrastructure.",
+        "responses": {
+          "200": {
+            "description": "Infrastructure metadata document"
+          }
+        }
+      }
+    },
+    "/.well-known/webfinger": {
+      "get": {
+        "summary": "Webfinger discovery",
+        "description": "Identity discovery endpoint."
+      }
+    }
+  }
+}
