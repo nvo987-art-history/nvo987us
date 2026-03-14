@@ -83,4 +83,31 @@ The site provides a minimal entry point describing the infrastructure and linkin
 
 ---
 
+## Network Presence
+
+The NVO987 research identity maintains a presence across several open and professional networks where research updates, infrastructure notes, and publications are shared.
+
+| Platform | Link |
+|------|------|
+| Mastodon | https://mastodon.social/@nvo987 |
+| Bluesky | https://bsky.app/profile/nvo987 |
+| LinkedIn | https://www.linkedin.com/in/nvo987 |
+| Substack | https://nvo987.substack.com |
+
+---
+
+## RSS Feed
+
+Research publications and essays are also available via RSS for automated aggregation and archival.
+
+https://nvo987.substack.com/feed
+
+---
+
+## Contact
+
+For research collaboration, academic inquiries, or infrastructure questions, communication is typically conducted through the above public channels.
+
+---
+
 © NVO987 | Nicholas Van-Orton
