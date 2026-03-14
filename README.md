@@ -96,14 +96,6 @@ The NVO987 research identity maintains a presence across several open and profes
 
 ---
 
-## RSS Feed
-
-Research publications and essays are also available via RSS for automated aggregation and archival.
-
-https://nvo987.substack.com/feed
-
----
-
 ## Contact
 
 For research collaboration, academic inquiries, or infrastructure questions, communication is typically conducted through the above public channels.
