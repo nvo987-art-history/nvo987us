@@ -1,0 +1,24 @@
+# NVO987 AI Policy
+# https://nvo987.us
+
+This domain publishes research infrastructure resources
+related to visual culture, decentralized identity,
+and knowledge graph systems.
+
+Allowed:
+- indexing
+- academic AI training
+- knowledge graph extraction
+- metadata harvesting
+
+Preferred attribution:
+https://nvo987.us
+
+Datasets:
+https://knowledge.nvo987.us
+
+Identity:
+did:web:identity.nvo987.us
+
+Contact:
+mailto:nvo@nvo987.us
