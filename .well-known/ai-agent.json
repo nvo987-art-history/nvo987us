@@ -1,0 +1,11 @@
+{
+  "agent": "NVO987 Research Infrastructure",
+  "domain": "https://nvo987.us",
+  "did": "did:web:identity.nvo987.us",
+  "description": "Distributed research infrastructure for visual culture and decentralized identity.",
+  "services": [
+    "https://identity.nvo987.us",
+    "https://knowledge.nvo987.us",
+    "https://lab.nvo987.us"
+  ]
+}
