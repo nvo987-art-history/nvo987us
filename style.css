@@ -3,9 +3,9 @@
 ========================= */
 
 *{
-  margin:0;
-  padding:0;
-  box-sizing:border-box;
+margin:0;
+padding:0;
+box-sizing:border-box;
 }
 
 /* =========================
@@ -14,23 +14,23 @@
 
 body{
 
-  font-family:system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif;
+font-family:system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif;
 
-  background:linear-gradient(
-    180deg,
-    #e9f4ff 0%,
-    #dbeeff 40%,
-    #e9f4ff 100%
-  );
+background:linear-gradient(
+180deg,
+#e9f4ff 0%,
+#dbeeff 40%,
+#e9f4ff 100%
+);
 
-  color:#ffffff;
+color:#ffffff;
 
-  line-height:1.6;
+line-height:1.6;
 
-  min-height:100vh;
+min-height:100vh;
 
-  display:flex;
-  flex-direction:column;
+display:flex;
+flex-direction:column;
 }
 
 /* =========================
@@ -39,65 +39,68 @@ body{
 
 .hero{
 
-  width:100%;
+width:100%;
 
-  min-height:42vh;
-  max-height:520px;
+min-height:42vh;
+max-height:520px;
 
-  padding:60px 20px;
+padding:60px 20px;
 
-  background-image:url("banner.jpg");
+background-image:url("banner.jpg");
 
-  background-size:cover;
+background-size:cover;
 
-  background-position:center 35%;
+background-position:center 35%;
 
-  background-repeat:no-repeat;
+background-repeat:no-repeat;
 
-  display:flex;
+display:flex;
 
-  align-items:center;
+align-items:center;
 
-  justify-content:center;
+justify-content:center;
 
-  text-align:center;
+text-align:center;
 }
 
-/* LIGHT GLASS STRIP */
+/* BALANCED GLASS STRIP */
 
 .hero-overlay{
 
-  background:rgba(255,255,255,0.15);
+background:rgba(0,0,0,0.35);
 
-  backdrop-filter:blur(2px);
+backdrop-filter:blur(2px);
 
-  padding:26px 40px;
+padding:28px 44px;
 
-  border-radius:16px;
+border-radius:16px;
 
-  max-width:900px;
+max-width:900px;
 
-  border:1px solid rgba(255,255,255,0.35);
+border:1px solid rgba(255,255,255,0.25);
 
-  box-shadow:0 10px 25px rgba(0,0,0,0.15);
+box-shadow:0 12px 30px rgba(0,0,0,0.25);
 }
 
 .hero h1{
 
-  font-size:2.6rem;
+font-size:2.6rem;
 
-  margin-bottom:10px;
+margin-bottom:10px;
 
-  text-shadow:0 2px 6px rgba(0,0,0,0.5);
+text-shadow:
+0 2px 6px rgba(0,0,0,0.9),
+0 0 12px rgba(0,0,0,0.4);
 }
 
 .hero p{
 
-  font-size:1.15rem;
+font-size:1.15rem;
 
-  opacity:0.95;
+opacity:0.96;
 
-  text-shadow:0 2px 5px rgba(0,0,0,0.5);
+text-shadow:
+0 2px 6px rgba(0,0,0,0.9);
 }
 
 /* =========================
@@ -106,13 +109,13 @@ body{
 
 main{
 
-  max-width:920px;
+max-width:920px;
 
-  margin:0 auto;
+margin:0 auto;
 
-  padding:36px 22px 26px;
+padding:36px 22px 26px;
 
-  flex:1;
+flex:1;
 }
 
 /* =========================
@@ -121,30 +124,32 @@ main{
 
 section{
 
-  margin-bottom:46px;
+margin-bottom:46px;
 
-  padding:28px 30px;
+padding:28px 30px;
 
-  background:#7a1f2b;
+background:#7a1f2b;
 
-  border-radius:16px;
+border-radius:16px;
 
-  border-left:5px solid #d4af37;
+/* ARANY CSÍK */
 
-  box-shadow:
-    0 8px 20px rgba(0,0,0,0.15),
-    0 22px 50px rgba(0,0,0,0.18);
+border-left:5px solid #d4af37;
 
-  transition:transform 0.25s ease,box-shadow 0.25s ease;
+box-shadow:
+0 8px 20px rgba(0,0,0,0.15),
+0 22px 50px rgba(0,0,0,0.18);
+
+transition:transform 0.25s ease,box-shadow 0.25s ease;
 }
 
 section:hover{
 
-  transform:translateY(-4px);
+transform:translateY(-4px);
 
-  box-shadow:
-    0 12px 30px rgba(0,0,0,0.18),
-    0 30px 65px rgba(0,0,0,0.22);
+box-shadow:
+0 12px 30px rgba(0,0,0,0.18),
+0 30px 65px rgba(0,0,0,0.22);
 }
 
 /* =========================
@@ -153,13 +158,13 @@ section:hover{
 
 p{
 
-  line-height:1.65;
+line-height:1.65;
 
-  margin-bottom:1.2em;
+margin-bottom:1.2em;
 }
 
 section p:last-child{
-  margin-bottom:0;
+margin-bottom:0;
 }
 
 /* =========================
@@ -168,29 +173,29 @@ section p:last-child{
 
 h1{
 
-  font-size:2rem;
+font-size:2rem;
 
-  margin-bottom:18px;
+margin-bottom:18px;
 }
 
 h2{
 
-  font-size:1.7rem;
+font-size:1.7rem;
 
-  margin-bottom:16px;
+margin-bottom:16px;
 
-  border-bottom:1px solid rgba(255,255,255,0.25);
+border-bottom:1px solid rgba(255,255,255,0.25);
 
-  padding-bottom:8px;
+padding-bottom:8px;
 }
 
 h3{
 
-  font-size:1.2rem;
+font-size:1.2rem;
 
-  margin-top:1.6em;
+margin-top:1.6em;
 
-  margin-bottom:0.6em;
+margin-bottom:0.6em;
 }
 
 /* =========================
@@ -198,11 +203,11 @@ h3{
 ========================= */
 
 ul{
-  list-style:none;
+list-style:none;
 }
 
 li{
-  margin:12px 0;
+margin:12px 0;
 }
 
 /* =========================
@@ -211,16 +216,16 @@ li{
 
 a{
 
-  color:#ffd6d6;
+color:#ffd6d6;
 
-  text-decoration:none;
+text-decoration:none;
 }
 
 a:hover{
 
-  color:#ffffff;
+color:#ffffff;
 
-  text-decoration:underline;
+text-decoration:underline;
 }
 
 /* =========================
@@ -229,44 +234,44 @@ a:hover{
 
 @media (max-width:700px){
 
-  .hero{
+.hero{
 
-    min-height:300px;
+min-height:300px;
 
-    padding:40px 16px;
+padding:40px 16px;
 
-    background-position:center 30%;
-  }
+background-position:center 30%;
+}
 
-  .hero-overlay{
+.hero-overlay{
 
-    padding:20px 22px;
-  }
+padding:20px 22px;
+}
 
-  .hero h1{
+.hero h1{
 
-    font-size:1.8rem;
-  }
+font-size:1.8rem;
+}
 
-  .hero p{
+.hero p{
 
-    font-size:1rem;
-  }
+font-size:1rem;
+}
 
-  main{
+main{
 
-    padding:26px 18px 24px;
-  }
+padding:26px 18px 24px;
+}
 
-  section{
+section{
 
-    padding:22px 20px;
-  }
+padding:22px 20px;
+}
 
-  p{
+p{
 
-    line-height:1.55;
-  }
+line-height:1.55;
+}
 
 }
 
@@ -276,13 +281,13 @@ a:hover{
 
 footer{
 
-  text-align:center;
+text-align:center;
 
-  margin-top:1.5rem;
+margin-top:1.5rem;
 
-  opacity:0.9;
+opacity:0.9;
 
-  font-size:0.95rem;
+font-size:0.95rem;
 
-  color:#5a1a22;
+color:#5a1a22;
 }
