@@ -1,0 +1,20 @@
+{
+  "version": "2.0",
+  "software": {
+    "name": "nvo987-infrastructure",
+    "version": "1.0"
+  },
+  "protocols": [
+    "did",
+    "webfinger",
+    "knowledge-graph"
+  ],
+  "services": {
+    "inbound": [],
+    "outbound": []
+  },
+  "openRegistrations": false,
+  "metadata": {
+    "organization": "NVO987 Research Infrastructure"
+  }
+}
