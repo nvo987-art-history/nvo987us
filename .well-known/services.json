@@ -1,0 +1,22 @@
+{
+  "name": "NVO987 Infrastructure",
+  "did": "did:web:identity.nvo987.us",
+  "services": [
+    {
+      "name": "Identity",
+      "url": "https://identity.nvo987.us"
+    },
+    {
+      "name": "Knowledge",
+      "url": "https://knowledge.nvo987.us"
+    },
+    {
+      "name": "Research Lab",
+      "url": "https://lab.nvo987.us"
+    },
+    {
+      "name": "Public Website",
+      "url": "https://nvo987.fr"
+    }
+  ]
+}
