@@ -1,0 +1,11 @@
+{
+  "catalog": "NVO987 datasets",
+  "publisher": "NVO987 Research Infrastructure",
+  "datasets": [
+    {
+      "name": "Visual Culture Knowledge Graph",
+      "url": "https://knowledge.nvo987.us",
+      "license": "CC-BY-4.0"
+    }
+  ]
+}
