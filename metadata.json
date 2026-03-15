@@ -1,0 +1,14 @@
+{
+  "name": "NVO987 Infrastructure",
+  "type": "research infrastructure",
+  "domain": "https://nvo987.us",
+  "doi": "10.17605/OSF.IO/N4K6J",
+  "identity": "did:web:identity.nvo987.us",
+  "license": "CC-BY-4.0",
+  "nodes": [
+    "identity.nvo987.us",
+    "knowledge.nvo987.us",
+    "lab.nvo987.us",
+    "nvo987.fr"
+  ]
+}
