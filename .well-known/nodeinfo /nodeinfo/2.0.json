@@ -1,0 +1,19 @@
+{
+  "version": "2.0",
+  "software": {
+    "name": "custom",
+    "version": "1.0"
+  },
+  "protocols": ["activitypub"],
+  "services": {
+    "inbound": [],
+    "outbound": []
+  },
+  "openRegistrations": false,
+  "usage": {
+    "users": {
+      "total": 1
+    }
+  },
+  "metadata": {}
+}
