@@ -203,7 +203,46 @@ and social interfaces — is closely interconnected, creating a coherent, access
 
 </section>
 
+<section>
+  
+<h2>Decentralized Identity Infrastructure</h2>
 
+<p>
+The identity layer of the NVO987 infrastructure operates based on the decentralized identifier 
+(<code>did:web:identity.nvo987.us</code>). This identifier provides a cryptographically verifiable 
+root for identity authentication, management of public keys, storage of signed documents, 
+and publication of machine-readable identity metadata.
+</p>
+
+<p>
+The <strong>identity.nvo987.us</strong> subdomain provides the services required for identity verification, 
+hosts identity documents, public key directories, and machine-readable metadata describing the broader 
+research infrastructure. Through this mechanism, the identity node acts as a trust anchor for other services 
+within the network, ensuring that all components reference a consistent and verified identity.
+</p>
+
+<p>
+Identity services and verification endpoints are available at 
+<a href="https://identity.nvo987.us">identity.nvo987.us</a>. This location provides detailed documentation 
+of identity records and the verification mechanisms in place.
+</p>
+
+<p>
+The complete decentralized identity document, which includes cryptographic keys, verification methods, 
+and associated service endpoints, can be accessed at: 
+<a href="https://identity.nvo987.us/.well-known/did.json">
+https://identity.nvo987.us/.well-known/did.json
+</a>.
+</p>
+
+<p>
+This architecture complies with the latest decentralized identity and verifiable credentials standards, 
+allowing independent systems, agents, and knowledge graphs to reference a consistent identity root. 
+The integrated DID structure ensures that any module within the NVO987 infrastructure – whether research, 
+knowledge archival, or social services – relies on a unified, cryptographically verifiable identity.
+</p>
+
+</section>
 
 
 
