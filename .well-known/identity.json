@@ -1,0 +1,7 @@
+{
+  "did": "did:web:identity.nvo987.us",
+  "domain": "nvo987.us",
+  "role": "root-domain",
+  "controller": "https://identity.nvo987.us",
+  "description": "Root domain of the NVO987 research infrastructure network."
+}
