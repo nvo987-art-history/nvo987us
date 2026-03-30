@@ -13,7 +13,6 @@ box-sizing:border-box;
 ========================= */
 
 body{
-
 font-family:system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif;
 
 background:linear-gradient(
@@ -34,39 +33,30 @@ flex-direction:column;
 }
 
 /* =========================
-   HERO / BANNER ✅ FIXED
+   HERO / BANNER
 ========================= */
 
 .hero{
-
 width:100%;
-
 min-height:42vh;
 max-height:520px;
 
 padding:60px 20px;
 
 background-image:url("banner.jpg");
-
 background-size:cover;
-
 background-position:center 35%;
-
 background-repeat:no-repeat;
 
 display:flex;
-
 align-items:center;
-
 justify-content:center;
-
 text-align:center;
 }
 
-/* CLEAN GLASS */
+/* GLASS */
 
 .hero-overlay{
-
 background:rgba(255,255,255,0.18);
 
 backdrop-filter:blur(14px) saturate(120%);
@@ -84,26 +74,16 @@ box-shadow:0 12px 30px rgba(0,0,0,0.2);
 }
 
 .hero h1{
-
 font-size:2.6rem;
-
 margin-bottom:10px;
-
-/* tiszta, nem koszos */
 color:#ffffff;
-
 text-shadow:0 2px 8px rgba(0,0,0,0.35);
 }
 
 .hero p{
-
 font-size:1.15rem;
-
 opacity:0.95;
-
 color:#ffffff;
-
-/* finom shadow */
 text-shadow:0 1px 6px rgba(0,0,0,0.3);
 }
 
@@ -112,13 +92,9 @@ text-shadow:0 1px 6px rgba(0,0,0,0.3);
 ========================= */
 
 main{
-
 max-width:920px;
-
 margin:0 auto;
-
 padding:36px 22px 26px;
-
 flex:1;
 }
 
@@ -127,15 +103,12 @@ flex:1;
 ========================= */
 
 section{
-
 margin-bottom:46px;
-
 padding:28px 30px;
 
 background:#7a1f2b;
 
 border-radius:16px;
-
 border-left:5px solid #d4af37;
 
 box-shadow:
@@ -146,7 +119,6 @@ transition:transform 0.25s ease,box-shadow 0.25s ease;
 }
 
 section:hover{
-
 transform:translateY(-4px);
 
 box-shadow:
@@ -155,15 +127,64 @@ box-shadow:
 }
 
 /* =========================
-   TEXT
+   TEXT FIX ✅
 ========================= */
 
 p{
-
 line-height:1.65;
-
-margin-bottom:1.2em;
+margin-bottom:16px;
 }
 
-section p:last-child{
+/* utolsó bekezdés ne legyen túl nagy */
+section p:last-of-type{
 margin-bottom:0;
+}
+
+/* =========================
+   LIST FIX ✅ (EZ OLDJA MEG A PROBLÉMÁT)
+========================= */
+
+ul{
+margin:16px 0 20px;
+padding-left:0;
+}
+
+/* lista elemek */
+ul li{
+list-style:none;
+margin:10px 0;
+padding-left:18px;
+position:relative;
+}
+
+/* arany bullet */
+ul li::before{
+content:"";
+width:6px;
+height:6px;
+background:#d4af37;
+border-radius:50%;
+
+position:absolute;
+left:0;
+top:9px;
+}
+
+/* lista után legyen tér */
+ul + p{
+margin-top:18px;
+}
+
+/* =========================
+   LINKS
+========================= */
+
+a{
+color:#ffd6d6;
+text-decoration:none;
+}
+
+a:hover{
+color:#ffffff;
+text-decoration:underline;
+}
