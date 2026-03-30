@@ -127,7 +127,7 @@ box-shadow:
 }
 
 /* =========================
-   TEXT FIX ✅
+   TEXT FIX
 ========================= */
 
 p{
@@ -135,13 +135,12 @@ line-height:1.65;
 margin-bottom:16px;
 }
 
-/* utolsó bekezdés ne legyen túl nagy */
 section p:last-of-type{
 margin-bottom:0;
 }
 
 /* =========================
-   LIST FIX ✅ (EZ OLDJA MEG A PROBLÉMÁT)
+   LIST FIX
 ========================= */
 
 ul{
@@ -149,7 +148,6 @@ margin:16px 0 20px;
 padding-left:0;
 }
 
-/* lista elemek */
 ul li{
 list-style:none;
 margin:10px 0;
@@ -157,7 +155,6 @@ padding-left:18px;
 position:relative;
 }
 
-/* arany bullet */
 ul li::before{
 content:"";
 width:6px;
@@ -170,7 +167,6 @@ left:0;
 top:9px;
 }
 
-/* lista után legyen tér */
 ul + p{
 margin-top:18px;
 }
@@ -187,4 +183,38 @@ text-decoration:none;
 a:hover{
 color:#ffffff;
 text-decoration:underline;
+}
+
+/* =========================
+   FOOTER ✅ FIX
+========================= */
+
+footer{
+margin-top:auto;
+
+padding:18px 12px;
+
+text-align:center;
+
+font-size:0.9rem;
+
+/* legyen kontrasztos */
+color:#5a1a22;
+
+/* halvány háttér, hogy elváljon */
+background:rgba(255,255,255,0.65);
+
+backdrop-filter:blur(6px);
+-webkit-backdrop-filter:blur(6px);
+
+border-top:1px solid rgba(0,0,0,0.08);
+}
+
+footer a{
+color:#7a1f2b;
+font-weight:500;
+}
+
+footer a:hover{
+color:#000;
 }
