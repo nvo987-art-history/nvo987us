@@ -134,6 +134,21 @@ section h2{
 margin-bottom:14px;
 }
 
+section h3{
+margin-top:22px;
+margin-bottom:12px;
+}
+
+/* =========================
+   HR SPACING FIX
+========================= */
+
+hr{
+margin:20px 0;
+border:none;
+border-top:1px solid rgba(255,255,255,0.35);
+}
+
 /* =========================
    TEXT FIX
 ========================= */
