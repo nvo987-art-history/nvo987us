@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:foaf="http://xmlns.com/foaf/0.1/"
+ xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+
+<foaf:Person rdf:about="https://identity.nvo987.us">
+
+<foaf:name>Nicholas Van-Orton</foaf:name>
+
+<foaf:nick>NVO987</foaf:nick>
+
+<foaf:homepage rdf:resource="https://nvo987.us"/>
+
+<foaf:page rdf:resource="https://identity.nvo987.us"/>
+
+<foaf:account>
+<foaf:OnlineAccount>
+<foaf:accountServiceHomepage rdf:resource="https://nvo987.us"/>
+<foaf:accountName>nvo987</foaf:accountName>
+</foaf:OnlineAccount>
+</foaf:account>
+
+<foaf:topic_interest>Decentralized Identity</foaf:topic_interest>
+<foaf:topic_interest>Semantic Web</foaf:topic_interest>
+<foaf:topic_interest>Knowledge Graphs</foaf:topic_interest>
+<foaf:topic_interest>Research Infrastructure</foaf:topic_interest>
+
+</foaf:Person>
+
+<foaf:Project rdf:about="https://nvo987.us">
+
+<foaf:name>NVO987 Decentralized Research Infrastructure</foaf:name>
+
+<rdfs:comment>
+Decentralized research infrastructure combining identity verification,
+knowledge graph systems, research publications and machine-readable
+data services across Web2 and Web3 environments.
+</rdfs:comment>
+
+<foaf:homepage rdf:resource="https://nvo987.us"/>
+
+</foaf:Project>
+
+</rdf:RDF>
