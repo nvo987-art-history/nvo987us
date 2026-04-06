@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rss version="2.0">
+
+<channel>
+
+<title>NVO987 Research Infrastructure</title>
+
+<link>https://nvo987.us</link>
+
+<description>
+Decentralized research infrastructure combining identity verification,
+knowledge graph systems, research publication nodes and machine-readable
+data services across Web2 and Web3 environments.
+</description>
+
+<language>en-us</language>
+
+<lastBuildDate>Mon, 01 Jan 2026 00:00:00 GMT</lastBuildDate>
+
+<managingEditor>identity@nvo987.us</managingEditor>
+
+<webMaster>identity@nvo987.us</webMaster>
+
+<item>
+
+<title>NVO987 Infrastructure Overview</title>
+
+<link>https://nvo987.us</link>
+
+<guid>https://nvo987.us/#infrastructure</guid>
+
+<pubDate>Mon, 01 Jan 2026 00:00:00 GMT</pubDate>
+
+<description>
+Overview of the NVO987 decentralized research infrastructure,
+including identity verification systems, knowledge domains,
+and distributed publication nodes.
+</description>
+
+</item>
+
+<item>
+
+<title>Decentralized Identity Architecture</title>
+
+<link>https://web3.nvo987.us</link>
+
+<guid>https://web3.nvo987.us/#architecture</guid>
+
+<pubDate>Mon, 01 Jan 2026 00:00:00 GMT</pubDate>
+
+<description>
+Documentation of the decentralized identity architecture used
+within the NVO987 research infrastructure.
+</description>
+
+</item>
+
+<item>
+
+<title>NVO987 Knowledge Domain</title>
+
+<link>https://knowledge.nvo987.us</link>
+
+<guid>https://knowledge.nvo987.us/#domain</guid>
+
+<pubDate>Mon, 01 Jan 2026 00:00:00 GMT</pubDate>
+
+<description>
+Research documentation and analytical publications within the
+knowledge domain of the NVO987 infrastructure.
+</description>
+
+</item>
+
+</channel>
+
+</rss>
