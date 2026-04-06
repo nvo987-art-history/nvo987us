@@ -1,0 +1,23 @@
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix schema: <https://schema.org/> .
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://identity.nvo987.us>
+    a foaf:Person ;
+    foaf:name "Nicholas Van-Orton" ;
+    foaf:nick "NVO987" ;
+    foaf:homepage <https://nvo987.us> ;
+    foaf:page <https://identity.nvo987.us> ;
+    foaf:topic_interest "Decentralized Identity" ;
+    foaf:topic_interest "Semantic Web" ;
+    foaf:topic_interest "Knowledge Graphs" ;
+    foaf:topic_interest "Research Infrastructure" .
+
+<https://nvo987.us>
+    a schema:ResearchProject ;
+    schema:name "NVO987 Decentralized Research Infrastructure" ;
+    schema:url <https://nvo987.us> ;
+    schema:creator <https://identity.nvo987.us> ;
+    schema:description "Decentralized research infrastructure combining identity verification, knowledge graph architecture, research publication nodes, and machine-readable data services across Web2 and Web3 environments." ;
+    dc:created "2024-01-01"^^xsd:date .
