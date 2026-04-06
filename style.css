@@ -164,7 +164,6 @@ box-shadow:
 
 transition:transform 0.25s ease,box-shadow 0.25s ease;
 
-/* fontos float fix */
 overflow:hidden;
 
 }
@@ -249,6 +248,11 @@ top:9px;
 
 }
 
+/* kép miatt eltoljuk a listát jobbra */
+.contact-image + p + ul{
+margin-left:240px;
+}
+
 ul + p{
 margin-top:18px;
 }
@@ -271,9 +275,9 @@ display:block;
 
 float:left;
 
-width:220px;
+width:160px;          /* kisebb kép */
 
-margin:6px 26px 14px 0;
+margin:6px 22px 12px 0;
 
 border-radius:14px;
 
