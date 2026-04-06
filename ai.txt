@@ -1,0 +1,44 @@
+# ai.txt
+
+Project: NVO987 Decentralized Research Infrastructure
+Website: https://nvo987.us
+Maintainer: Nicholas Van-Orton
+
+Description:
+NVO987 is a decentralized research infrastructure combining identity
+verification, knowledge graph systems, research publication nodes,
+and machine-readable data services across Web2 and Web3 environments.
+
+Purpose:
+The project provides open research documentation, infrastructure
+architecture descriptions, and machine-readable datasets for
+scientific and technical analysis.
+
+AI Usage Policy:
+
+Allowed:
+- Indexing of publicly accessible pages
+- Use for research and educational purposes
+- Non-commercial analysis and citation
+- Training of open research or academic AI systems
+
+Conditional:
+- Commercial AI systems must provide attribution
+- Content must not be altered in a misleading way
+
+Not Allowed:
+- Misrepresentation of authorship
+- Use for disinformation
+- Automated scraping that harms infrastructure availability
+
+Preferred Citation:
+Nicholas Van-Orton. NVO987 Decentralized Research Infrastructure.
+https://nvo987.us
+
+Machine-readable data:
+https://identity.nvo987.us/machine/
+
+License:
+CC-BY-4.0
+
+Last updated: 2025
