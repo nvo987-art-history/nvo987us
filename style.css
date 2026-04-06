@@ -249,8 +249,8 @@ top:9px;
 }
 
 /* kép miatt eltoljuk a listát jobbra */
-.contact-image + p + ul{
-margin-left:240px;
+.contact-image ~ ul{
+margin-left:200px;
 }
 
 ul + p{
@@ -275,7 +275,7 @@ display:block;
 
 float:left;
 
-width:160px;          /* kisebb kép */
+width:160px;
 
 margin:6px 22px 12px 0;
 
