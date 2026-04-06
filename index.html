@@ -221,6 +221,50 @@ href="https://nvo987.substack.com/feed">
 <script type="application/ld+json">
 {
  "@context": "https://schema.org",
+ "@graph": [
+
+{
+ "@type": "Person",
+ "@id": "did:web:identity.nvo987.us",
+ "name": "Nicholas Van-Orton",
+ "identifier": "did:web:identity.nvo987.us",
+ "url": "https://identity.nvo987.us",
+ "sameAs": [
+  "https://nvo987.us",
+  "https://lab.nvo987.us",
+  "https://knowledge.nvo987.us",
+  "https://art.nvo987.us",
+  "https://social.nvo987.us",
+  "https://web3.nvo987.us"
+ ]
+},
+
+{
+ "@type": "Organization",
+ "@id": "https://nvo987.fr/#organization",
+ "name": "NVO987 – Culture Visuelle Moderne et Contemporaine",
+ "url": "https://nvo987.fr",
+ "description": "Paris-based cultural and research association dedicated to modern and contemporary visual culture, artistic research, and interdisciplinary cultural studies.",
+ "founder": {
+   "@id": "did:web:identity.nvo987.us"
+ }
+},
+
+{
+ "@type": "ResearchProject",
+ "@id": "https://nvo987.us/#project",
+ "name": "NVO987 Decentralized Research Infrastructure",
+ "url": "https://nvo987.us",
+ "description": "Decentralized research infrastructure combining identity verification, knowledge graph systems, research publication nodes and machine-readable data services.",
+ "creator": {
+   "@id": "did:web:identity.nvo987.us"
+ },
+ "funder": {
+   "@id": "https://nvo987.fr/#organization"
+ }
+},
+
+{
  "@type": "Dataset",
  "@id": "https://nvo987.us/#dataset",
  "name": "NVO987 Research Infrastructure Dataset",
@@ -228,11 +272,73 @@ href="https://nvo987.substack.com/feed">
  "url": "https://nvo987.us",
  "license": "https://creativecommons.org/licenses/by/4.0/",
  "creator": {
-   "@type": "Person",
-   "name": "Nicholas Van-Orton",
-   "identifier": "did:web:identity.nvo987.us",
-   "url": "https://identity.nvo987.us"
+   "@id": "did:web:identity.nvo987.us"
+ },
+ "isPartOf": {
+   "@id": "https://nvo987.us/#project"
+ },
+ "distribution": [
+   {
+    "@type": "DataDownload",
+    "contentUrl": "https://identity.nvo987.us/machine/graph.jsonld"
+   },
+   {
+    "@type": "DataDownload",
+    "contentUrl": "https://identity.nvo987.us/machine/agents.jsonld"
+   },
+   {
+    "@type": "DataDownload",
+    "contentUrl": "https://identity.nvo987.us/machine/vc.jsonld"
+   }
+ ]
+},
+
+{
+ "@type": "WebSite",
+ "@id": "https://nvo987.us/#website",
+ "url": "https://nvo987.us",
+ "name": "NVO987 Research Infrastructure",
+ "publisher": {
+   "@id": "did:web:identity.nvo987.us"
  }
+},
+
+{
+ "@type": "DataCatalog",
+ "@id": "https://knowledge.nvo987.us",
+ "name": "NVO987 Knowledge Domain",
+ "url": "https://knowledge.nvo987.us"
+},
+
+{
+ "@type": "ResearchProject",
+ "@id": "https://lab.nvo987.us",
+ "name": "NVO987 Research Laboratory",
+ "url": "https://lab.nvo987.us"
+},
+
+{
+ "@type": "CreativeWork",
+ "@id": "https://art.nvo987.us",
+ "name": "NVO987 Cultural and Art Publications",
+ "url": "https://art.nvo987.us"
+},
+
+{
+ "@type": "WebSite",
+ "@id": "https://social.nvo987.us",
+ "name": "NVO987 Social Communication Node",
+ "url": "https://social.nvo987.us"
+},
+
+{
+ "@type": "TechArticle",
+ "@id": "https://web3.nvo987.us",
+ "name": "Decentralized Identity Architecture Documentation",
+ "url": "https://web3.nvo987.us"
+}
+
+ ]
 }
 </script>
 
