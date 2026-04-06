@@ -1,5 +1,5 @@
 /* =========================
-   RESET
+RESET
 ========================= */
 
 *{
@@ -9,7 +9,7 @@ box-sizing:border-box;
 }
 
 /* =========================
-   BODY
+BODY
 ========================= */
 
 body{
@@ -23,25 +23,42 @@ background:linear-gradient(
 );
 
 color:#ffffff;
-
 line-height:1.6;
 
 min-height:100vh;
-
 display:flex;
 flex-direction:column;
 }
 
 /* =========================
-   HERO / BANNER
+LAYOUT CONTAINER
 ========================= */
 
-.hero{
+.container{
+max-width:920px;
+margin:0 auto;
+padding:0 20px;
 width:100%;
+}
+
+/* =========================
+HERO / BANNER
+========================= */
+
+.hero-wrapper{
+padding-top:28px;
+}
+
+.hero{
+
+max-width:920px;
+margin:0 auto;
+
 min-height:320px;
-max-height:520px;
 
 padding:60px 20px;
+
+border-radius:18px;
 
 background-image:url("banner.jpg");
 background-size:cover;
@@ -53,78 +70,83 @@ align-items:center;
 justify-content:center;
 text-align:center;
 
-overflow:hidden;
+box-shadow:
+0 10px 30px rgba(0,0,0,0.15);
 }
 
 /* GLASS */
 
 .hero-overlay{
-background:rgba(255,255,255,0.18);
 
-backdrop-filter:blur(14px) saturate(120%);
--webkit-backdrop-filter:blur(14px) saturate(120%);
+background:rgba(255,255,255,0.20);
 
-padding:28px 44px;
+backdrop-filter:blur(14px);
+-webkit-backdrop-filter:blur(14px);
+
+padding:28px 40px;
 
 border-radius:16px;
 
-max-width:900px;
+max-width:760px;
 width:100%;
 
 border:1px solid rgba(255,255,255,0.4);
 
-box-shadow:0 12px 30px rgba(0,0,0,0.2);
+box-shadow:0 10px 28px rgba(0,0,0,0.2);
 }
 
 .hero h1{
-font-size:2.4rem;
+font-size:2.3rem;
 margin-bottom:10px;
 color:#ffffff;
 text-shadow:0 2px 8px rgba(0,0,0,0.35);
-word-wrap:break-word;
 }
 
 .hero p{
-font-size:1.15rem;
-opacity:0.95;
+font-size:1.1rem;
 color:#ffffff;
+opacity:0.95;
 text-shadow:0 1px 6px rgba(0,0,0,0.3);
 }
 
 /* =========================
-   MAIN
+MAIN
 ========================= */
 
 main{
 max-width:920px;
-width:100%;
 margin:0 auto;
-padding:36px 22px 26px;
+padding:36px 20px 26px;
+width:100%;
 flex:1;
 }
 
 /* =========================
-   CARD SECTIONS
+CARD SECTIONS
 ========================= */
 
 section{
-margin-bottom:46px;
+
+margin-bottom:42px;
+
 padding:28px 30px;
 
 background:#7a1f2b;
 
-border-radius:16px;
+border-radius:18px;
+
 border-left:5px solid #d4af37;
 
 box-shadow:
 0 8px 20px rgba(0,0,0,0.15),
-0 22px 50px rgba(0,0,0,0.18);
+0 20px 50px rgba(0,0,0,0.18);
 
-transition:transform 0.25s ease,box-shadow 0.25s ease;
+transition:transform .25s ease, box-shadow .25s ease;
 }
 
 section:hover{
-transform:translateY(-4px);
+
+transform:translateY(-3px);
 
 box-shadow:
 0 12px 30px rgba(0,0,0,0.18),
@@ -132,7 +154,7 @@ box-shadow:
 }
 
 /* =========================
-   SECTION TITLE SPACING
+SECTION TITLES
 ========================= */
 
 section h2{
@@ -145,17 +167,7 @@ margin-bottom:12px;
 }
 
 /* =========================
-   HR SPACING FIX
-========================= */
-
-hr{
-margin:20px 0;
-border:none;
-border-top:1px solid rgba(255,255,255,0.35);
-}
-
-/* =========================
-   TEXT FIX
+TEXT
 ========================= */
 
 p{
@@ -168,7 +180,17 @@ margin-bottom:0;
 }
 
 /* =========================
-   LIST FIX
+HR
+========================= */
+
+hr{
+margin:20px 0;
+border:none;
+border-top:1px solid rgba(255,255,255,0.35);
+}
+
+/* =========================
+LIST
 ========================= */
 
 ul{
@@ -200,14 +222,14 @@ margin-top:18px;
 }
 
 /* =========================
-   LINKS
+LINKS
 ========================= */
 
 a{
 color:#ffd6d6;
 text-decoration:none;
 font-weight:500;
-transition:color 0.2s ease,text-shadow 0.2s ease;
+transition:color .2s ease,text-shadow .2s ease;
 }
 
 a:hover{
@@ -216,13 +238,14 @@ text-shadow:0 0 6px rgba(255,255,255,0.6);
 }
 
 /* =========================
-   FOOTER
+FOOTER
 ========================= */
 
 footer{
+
 margin-top:auto;
 
-padding:18px 12px;
+padding:20px;
 
 text-align:center;
 
@@ -240,9 +263,8 @@ border-top:1px solid rgba(0,0,0,0.08);
 
 footer a{
 color:#7a1f2b;
-font-weight:500;
 text-decoration:none;
-transition:color 0.2s ease;
+font-weight:500;
 }
 
 footer a:hover{
@@ -250,35 +272,35 @@ color:#000;
 }
 
 /* =========================
-   MOBILE FIX
+MOBILE
 ========================= */
 
 @media (max-width:700px){
 
 .hero{
-padding:40px 15px;
-min-height:260px;
+padding:40px 18px;
+min-height:240px;
 }
 
 .hero-overlay{
-padding:22px 20px;
+padding:20px 18px;
 }
 
 .hero h1{
-font-size:1.8rem;
+font-size:1.7rem;
 }
 
 .hero p{
-font-size:1rem;
+font-size:0.95rem;
 }
 
 section{
 padding:22px 18px;
-margin-bottom:32px;
+margin-bottom:30px;
 }
 
 main{
-padding:28px 16px 20px;
+padding:28px 18px;
 }
 
 }
