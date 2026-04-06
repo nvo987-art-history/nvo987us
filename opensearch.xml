@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/">
+
+<ShortName>NVO987</ShortName>
+
+<Description>
+Search within the NVO987 decentralized research infrastructure
+and related knowledge domains.
+</Description>
+
+<Tags>
+research web3 decentralized identity knowledge graph
+</Tags>
+
+<Contact>
+identity@nvo987.us
+</Contact>
+
+<Url
+ type="text/html"
+ template="https://nvo987.us/?q={searchTerms}" />
+
+<Url
+ type="application/rss+xml"
+ template="https://nvo987.us/rss.xml" />
+
+<Url
+ type="application/atom+xml"
+ template="https://nvo987.us/atom.xml" />
+
+<Image height="16" width="16" type="image/x-icon">
+https://nvo987.us/favicon.ico
+</Image>
+
+<Developer>NVO987 Research Infrastructure</Developer>
+
+<Attribution>
+Search service provided by the NVO987 research infrastructure.
+</Attribution>
+
+<SyndicationRight>open</SyndicationRight>
+
+<AdultContent>false</AdultContent>
+
+<Language>en-us</Language>
+
+<OutputEncoding>UTF-8</OutputEncoding>
+
+<InputEncoding>UTF-8</InputEncoding>
+
+</OpenSearchDescription>
