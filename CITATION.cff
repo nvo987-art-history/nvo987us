@@ -1,0 +1,45 @@
+cff-version: 1.2.0
+title: "NVO987 Decentralized Research Infrastructure"
+message: "If you use or reference this infrastructure, please cite it using the metadata below."
+type: software
+
+authors:
+  - family-names: "Van-Orton"
+    given-names: "Nicholas"
+    alias: "NVO987"
+    orcid: "https://orcid.org/0009-0007-4628-1871"
+
+identifiers:
+  - type: url
+    value: "https://nvo987.us"
+
+repository-code: "https://nvo987.us"
+
+abstract: >
+  NVO987 is a decentralized research infrastructure combining
+  identity verification, knowledge graph architecture, machine-readable
+  research datasets, and cultural research publications within a
+  distributed Web2 and Web3 environment.
+
+keywords:
+  - decentralized identity
+  - DID
+  - research infrastructure
+  - knowledge graph
+  - semantic web
+  - web3
+  - machine-readable research
+
+license: "CC-BY-4.0"
+
+date-released: 2026-01-01
+
+preferred-citation:
+  type: article
+  authors:
+    - family-names: "Van-Orton"
+      given-names: "Nicholas"
+      orcid: "https://orcid.org/0009-0007-4628-1871"
+  title: "NVO987 Decentralized Research Infrastructure"
+  year: 2026
+  url: "https://nvo987.us"
