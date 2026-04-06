@@ -186,11 +186,13 @@ margin-top:18px;
 a{
 color:#ffd6d6;
 text-decoration:none;
+font-weight:500;
+transition:color 0.2s ease,text-shadow 0.2s ease;
 }
 
 a:hover{
 color:#ffffff;
-text-decoration:underline;
+text-shadow:0 0 6px rgba(255,255,255,0.6);
 }
 
 /* =========================
@@ -219,6 +221,8 @@ border-top:1px solid rgba(0,0,0,0.08);
 footer a{
 color:#7a1f2b;
 font-weight:500;
+text-decoration:none;
+transition:color 0.2s ease;
 }
 
 footer a:hover{
