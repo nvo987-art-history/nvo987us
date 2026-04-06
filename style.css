@@ -127,6 +127,14 @@ box-shadow:
 }
 
 /* =========================
+   SECTION TITLE SPACING
+========================= */
+
+section h2{
+margin-bottom:14px;
+}
+
+/* =========================
    TEXT FIX
 ========================= */
 
@@ -186,7 +194,7 @@ text-decoration:underline;
 }
 
 /* =========================
-   FOOTER ✅ FIX
+   FOOTER
 ========================= */
 
 footer{
@@ -198,10 +206,8 @@ text-align:center;
 
 font-size:0.9rem;
 
-/* legyen kontrasztos */
 color:#5a1a22;
 
-/* halvány háttér, hogy elváljon */
 background:rgba(255,255,255,0.65);
 
 backdrop-filter:blur(6px);
