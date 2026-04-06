@@ -181,17 +181,12 @@ box-shadow:
 ========================= */
 
 section h2{
-
 margin-bottom:14px;
-
 }
 
 section h3{
-
 margin-top:22px;
-
 margin-bottom:12px;
-
 }
 
 /* =========================
@@ -199,13 +194,9 @@ margin-bottom:12px;
 ========================= */
 
 hr{
-
 margin:20px 0;
-
 border:none;
-
 border-top:1px solid rgba(255,255,255,0.35);
-
 }
 
 /* =========================
@@ -213,17 +204,12 @@ border-top:1px solid rgba(255,255,255,0.35);
 ========================= */
 
 p{
-
 line-height:1.65;
-
 margin-bottom:16px;
-
 }
 
 section p:last-of-type{
-
 margin-bottom:0;
-
 }
 
 /* =========================
@@ -231,23 +217,15 @@ margin-bottom:0;
 ========================= */
 
 ul{
-
 margin:16px 0 20px;
-
 padding-left:0;
-
 }
 
 ul li{
-
 list-style:none;
-
 margin:10px 0;
-
 padding-left:18px;
-
 position:relative;
-
 }
 
 ul li::before{
@@ -269,9 +247,7 @@ top:9px;
 }
 
 ul + p{
-
 margin-top:18px;
-
 }
 
 /* =========================
@@ -279,23 +255,32 @@ margin-top:18px;
 ========================= */
 
 img{
-
 max-width:100%;
 height:auto;
 display:block;
+}
+
+/* PROFILKÉP - CONTACT SZEKCIÓ */
+
+.contact-image{
+
+float:left;
+
+max-width:240px;
+
+margin:
+6px 26px 14px 0;
+
+border-radius:16px;
+
+box-shadow:0 10px 26px rgba(0,0,0,0.30);
 
 }
 
-main img{
+/* CLEAR FLOAT */
 
-max-width:260px;
-
-margin:20px auto;
-
-border-radius:14px;
-
-box-shadow:0 8px 22px rgba(0,0,0,0.25);
-
+.contact-clear{
+clear:both;
 }
 
 /* =========================
@@ -360,7 +345,5 @@ transition:color 0.2s ease;
 }
 
 footer a:hover{
-
 color:#000;
-
 }
