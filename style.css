@@ -1,5 +1,5 @@
 /* =========================
-RESET
+   RESET
 ========================= */
 
 *{
@@ -9,7 +9,7 @@ box-sizing:border-box;
 }
 
 /* =========================
-BODY
+   BODY
 ========================= */
 
 body{
@@ -35,7 +35,7 @@ flex-direction:column;
 }
 
 /* =========================
-HERO / BANNER
+   HERO / BANNER
 ========================= */
 
 .hero{
@@ -66,7 +66,7 @@ box-shadow:
 }
 
 /* =========================
-GLASS PANEL
+   GLASS PANEL
 ========================= */
 
 .hero-overlay{
@@ -91,7 +91,7 @@ box-shadow:
 }
 
 /* =========================
-HERO TEXT
+   HERO TEXT
 ========================= */
 
 .hero h1{
@@ -127,7 +127,7 @@ text-shadow:0 2px 8px rgba(0,0,0,0.35);
 }
 
 /* =========================
-MAIN
+   MAIN
 ========================= */
 
 main{
@@ -143,7 +143,7 @@ flex:1;
 }
 
 /* =========================
-CARD SECTIONS
+   CARD SECTIONS
 ========================= */
 
 section{
@@ -179,7 +179,7 @@ box-shadow:
 }
 
 /* =========================
-SECTION TITLE SPACING
+   SECTION TITLE SPACING
 ========================= */
 
 section h2{
@@ -192,7 +192,7 @@ margin-bottom:12px;
 }
 
 /* =========================
-HR SPACING FIX
+   HR SPACING FIX
 ========================= */
 
 hr{
@@ -202,7 +202,7 @@ border-top:1px solid rgba(255,255,255,0.35);
 }
 
 /* =========================
-TEXT FIX
+   TEXT FIX
 ========================= */
 
 p{
@@ -215,7 +215,7 @@ margin-bottom:0;
 }
 
 /* =========================
-LIST FIX
+   LIST FIX
 ========================= */
 
 ul{
@@ -258,7 +258,7 @@ margin-top:18px;
 }
 
 /* =========================
-IMAGE FIX
+   IMAGE FIX
 ========================= */
 
 img{
@@ -268,7 +268,7 @@ display:block;
 }
 
 /* =========================
-CONTACT IMAGE
+   CONTACT IMAGE
 ========================= */
 
 .contact-image{
@@ -286,7 +286,7 @@ box-shadow:0 10px 26px rgba(0,0,0,0.30);
 }
 
 /* =========================
-FLOAT CLEAR
+   FLOAT CLEAR
 ========================= */
 
 .contact-clear{
@@ -294,7 +294,7 @@ clear:both;
 }
 
 /* =========================
-LINKS
+   LINKS
 ========================= */
 
 a{
@@ -318,7 +318,7 @@ text-shadow:0 0 6px rgba(255,255,255,0.6);
 }
 
 /* =========================
-FOOTER
+   FOOTER
 ========================= */
 
 footer{
@@ -359,7 +359,7 @@ color:#000;
 }
 
 /* =========================
-MOBILE OPTIMIZATION
+   MOBILE FIX ONLY
 ========================= */
 
 @media (max-width:768px){
@@ -371,53 +371,20 @@ padding:24px 16px;
 .hero{
 width:calc(100% - 24px);
 margin:18px auto 16px auto;
-padding:28px 16px;
-}
-
-.hero-overlay{
-padding:22px 18px;
-width:100%;
 }
 
 section{
-padding:22px 18px;
 margin-bottom:28px;
 }
 
 .contact-image{
-
 float:none;
-
 display:block;
-
-width:140px;
-
 margin:0 auto 18px auto;
-
 }
 
 .contact-image ~ ul{
 margin-left:0;
-}
-
-ul{
-margin-left:4px;
-}
-
-}
-
-@media (max-width:480px){
-
-.hero h1{
-font-size:1.5rem;
-}
-
-.hero p{
-font-size:0.95rem;
-}
-
-section{
-padding:20px 16px;
 }
 
            }
