@@ -31,36 +31,29 @@ background:linear-gradient(
 
 color:#ffffff;
 
-line-height:1.65;
+line-height:1.6;
 
 min-height:100vh;
-
-display:flex;
-flex-direction:column;
 
 }
 
 /* =========================
-CONTAINER SYSTEM
+GLOBAL CONTAINER
 ========================= */
 
 header,
 main,
 footer{
 
+max-width:960px;
+
+margin-left:auto;
+margin-right:auto;
+
 width:100%;
 
-}
-
-main{
-
-max-width:900px;
-
-margin:auto;
-
-padding:20px;
-
-flex:1;
+padding-left:20px;
+padding-right:20px;
 
 }
 
@@ -70,13 +63,10 @@ HERO
 
 .hero{
 
-width:100%;
+margin-top:24px;
+margin-bottom:24px;
 
-min-height:200px;
-
-margin-bottom:20px;
-
-padding:30px 20px;
+padding:40px 20px;
 
 background-image:url("banner.jpg");
 background-size:cover;
@@ -86,9 +76,10 @@ display:flex;
 align-items:center;
 justify-content:center;
 
-border-radius:18px;
+border-radius:20px;
 
-box-shadow:0 12px 30px rgba(0,0,0,0.25);
+box-shadow:
+0 16px 40px rgba(0,0,0,0.25);
 
 }
 
@@ -100,16 +91,16 @@ HERO GLASS
 
 background:rgba(255,255,255,0.25);
 
-backdrop-filter:blur(14px);
--webkit-backdrop-filter:blur(14px);
+backdrop-filter:blur(16px);
+-webkit-backdrop-filter:blur(16px);
 
-padding:24px;
+padding:26px 30px;
 
 border-radius:18px;
 
-text-align:center;
+max-width:620px;
 
-max-width:600px;
+text-align:center;
 
 border:1px solid rgba(255,255,255,0.45);
 
@@ -121,11 +112,11 @@ HERO TEXT
 
 .hero h1{
 
-font-size:clamp(1.7rem,5vw,2.4rem);
+font-size:clamp(1.8rem,4vw,2.4rem);
 
-margin-bottom:10px;
+margin-bottom:12px;
 
-text-shadow:0 4px 10px rgba(0,0,0,0.5);
+text-shadow:0 4px 12px rgba(0,0,0,0.45);
 
 }
 
@@ -133,12 +124,22 @@ text-shadow:0 4px 10px rgba(0,0,0,0.5);
 
 font-size:1rem;
 
-text-shadow:0 2px 6px rgba(0,0,0,0.4);
+text-shadow:0 2px 8px rgba(0,0,0,0.35);
 
 }
 
 /* =========================
-SECTIONS
+MAIN
+========================= */
+
+main{
+
+margin-bottom:40px;
+
+}
+
+/* =========================
+SECTION
 ========================= */
 
 section{
@@ -147,9 +148,9 @@ background:#7a1f2b;
 
 border-radius:16px;
 
-padding:24px;
+padding:26px;
 
-margin-bottom:26px;
+margin-bottom:32px;
 
 border-left:5px solid #d4af37;
 
@@ -164,13 +165,11 @@ HEADINGS
 
 h2{
 margin-bottom:14px;
-font-size:1.4rem;
 }
 
 h3{
 margin-top:18px;
 margin-bottom:10px;
-font-size:1.1rem;
 }
 
 /* =========================
@@ -194,9 +193,7 @@ padding-left:20px;
 }
 
 ul li{
-
 margin:8px 0;
-
 }
 
 /* =========================
@@ -209,19 +206,17 @@ margin:18px 0;
 
 border:none;
 
-border-top:1px solid rgba(255,255,255,0.4);
+border-top:1px solid rgba(255,255,255,0.35);
 
 }
 
 /* =========================
-CONTACT BLOCK
+CONTACT IMAGE
 ========================= */
 
 .contact-image{
 
 width:150px;
-
-margin:auto;
 
 margin-bottom:16px;
 
@@ -241,8 +236,6 @@ color:#ffd6d6;
 
 text-decoration:none;
 
-font-weight:500;
-
 }
 
 a:hover{
@@ -261,7 +254,7 @@ footer{
 
 text-align:center;
 
-padding:16px;
+padding:20px;
 
 font-size:0.9rem;
 
@@ -274,37 +267,36 @@ border-top:1px solid rgba(0,0,0,0.1);
 }
 
 /* =========================
-TABLET
+MOBILE
 ========================= */
 
-@media (min-width:768px){
+@media (max-width:768px){
 
-main{
-padding:32px;
+header,
+main,
+footer{
+
+padding-left:16px;
+padding-right:16px;
+
 }
 
 .hero{
-padding:40px;
+
+padding:28px 16px;
+
+}
+
+.hero-overlay{
+
+padding:20px;
+
 }
 
 section{
-padding:28px;
-}
 
-}
+padding:20px;
 
-/* =========================
-DESKTOP
-========================= */
-
-@media (min-width:1100px){
-
-main{
-max-width:1000px;
-}
-
-.hero{
-min-height:240px;
 }
 
 }
