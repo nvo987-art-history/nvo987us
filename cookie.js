@@ -89,17 +89,21 @@ document.addEventListener("DOMContentLoaded", function () {
   }
 
   function loadAnalytics() {
+
+    if (window.gtagLoaded) return;
+    window.gtagLoaded = true;
+
     const script = document.createElement("script");
-    script.src = "https://www.googletagmanager.com/gtag/js?id=G-8WXTNXNCVG";
+    script.src = "https://www.googletagmanager.com/gtag/js?id=G-Y46Z31JMRG";
     script.async = true;
     document.head.appendChild(script);
 
-    script.onload = function () {
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-      gtag('config', 'G-8WXTNXNCVG');
-    };
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    window.gtag = gtag;
+
+    gtag('js', new Date());
+    gtag('config', 'G-Y46Z31JMRG');
   }
 
   function showDetailsPopup() {
