@@ -187,37 +187,17 @@ LIST
 ========================= */
 
 ul{
+
 margin:14px 0 18px;
-padding-left:0;
-list-style:none;
+
+padding-left:20px;
+
+list-style:none; /* JAVÍTÁS */
+
 }
 
 ul li{
 margin:8px 0;
-position:relative;
-padding-left:18px;
-}
-
-ul li::before{
-content:"•";
-position:absolute;
-left:0;
-top:0;
-}
-
-/* ===== FIX: link-only sorokhoz pont ===== */
-
-p > a:only-child{
-display:block;
-position:relative;
-padding-left:18px;
-}
-
-p > a:only-child::before{
-content:"•";
-position:absolute;
-left:0;
-top:0;
 }
 
 /* =========================
@@ -306,15 +286,21 @@ padding-right:16px;
 }
 
 .hero{
+
 padding:28px 16px;
+
 }
 
 .hero-overlay{
+
 padding:20px;
+
 }
 
 section{
+
 padding:20px;
+
 }
 
 }
