@@ -190,9 +190,10 @@ ul{
 
 margin:14px 0 18px;
 
-padding-left:20px;
+padding-left:22px;
 
-list-style:none; /* JAVÍTÁS */
+list-style:disc;
+list-style-position:outside;
 
 }
 
