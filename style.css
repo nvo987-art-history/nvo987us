@@ -920,48 +920,67 @@ MOBILE OPTIMIZATION
 @media (max-width:768px){
 
     .navbar{
+
         position:relative;
-        flex-direction:column;
-        gap:18px;
+
+        width:100%;
+
         padding:20px;
+
+        flex-direction:column;
+
+        gap:10px;
+
+        justify-content:center;
+
+        align-items:center;
+    }
+
+    .logo{
+
+        margin-bottom:5px;
+
+        font-size:1.8rem;
+    }
+
+    .navbar nav{
+
+        width:100%;
+
+        display:flex;
+
+        justify-content:center;
+
+        flex-wrap:wrap;
+
+        gap:20px;
     }
 
     .hero{
-        min-height:auto;
-        padding:40px 20px 60px;
-    }
 
-    .hero-label{
-        margin-bottom:50px;
+        min-height:auto;
+
+        padding:
+            40px
+            20px
+            60px;
     }
 
     .hero-content{
-        margin-top:10px;
+
+        margin-top:0;
     }
-}
+
+    .hero-label{
+
+        margin-bottom:35px;
+    }
 
     .glass-card{
 
         padding:
             40px
             30px;
-    }
-}
-
-@media (max-width:768px){
-
-    .navbar{
-
-        flex-direction:column;
-
-        gap:16px;
-    }
-
-    .navbar nav{
-
-        flex-wrap:wrap;
-
-        justify-content:center;
     }
 
     h1{
@@ -994,11 +1013,6 @@ MOBILE OPTIMIZATION
 
 @media (max-width:480px){
 
-    body{
-
-        font-size:15px;
-    }
-
     main{
 
         padding:
@@ -1007,10 +1021,15 @@ MOBILE OPTIMIZATION
             90px;
     }
 
+    .navbar nav{
+
+        gap:14px;
+    }
+
     .hero{
 
         padding:
-            130px
+            30px
             18px
             60px;
     }
@@ -1039,8 +1058,6 @@ MOBILE OPTIMIZATION
     .btn{
 
         width:100%;
-
-        text-align:center;
     }
 
     .footer-links{
@@ -1051,11 +1068,6 @@ MOBILE OPTIMIZATION
     .footer-links a{
 
         width:100%;
-    }
-
-    .logo{
-
-        font-size:1.6rem;
     }
 
     .hash-value{
