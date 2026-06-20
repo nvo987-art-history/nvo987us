@@ -917,29 +917,28 @@ SELECTION
 MOBILE OPTIMIZATION
 ========================================================= */
 
-@media (max-width:992px){
+@media (max-width:768px){
 
     .navbar{
-
-        padding:
-            16px
-            24px;
-    }
-
-    .navbar nav{
-
+        position:relative;
+        flex-direction:column;
         gap:18px;
+        padding:20px;
     }
 
     .hero{
-
         min-height:auto;
-
-        padding:
-            140px
-            24px
-            70px;
+        padding:40px 20px 60px;
     }
+
+    .hero-label{
+        margin-bottom:50px;
+    }
+
+    .hero-content{
+        margin-top:10px;
+    }
+}
 
     .glass-card{
 
