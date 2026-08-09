@@ -1,17 +1,17 @@
 ---
-
 layout: default
 title: "Nicholas Van-Orton"
 description: "Nicholas Van-Orton — independent researcher and founder of NVO987 – Culture Visuelle Moderne et Contemporaine Association."
 author: "Nicholas Van-Orton"
 lang: en
 permalink: /
+---
 
-Nicholas Van-Orton
+# Nicholas Van-Orton
 
-Independent researcher · Founder of NVO987 – Culture Visuelle Moderne et Contemporaine Association
+**Independent researcher · Founder of NVO987 – Culture Visuelle Moderne et Contemporaine Association**
 
-Nicholas Van-Orton is identified in the supplied publication and identity metadata as an independent researcher and founder of NVO987 – Culture Visuelle Moderne et Contemporaine Association.
+Nicholas Van-Orton is identified in the supplied publication and identity metadata as an independent researcher and founder of **NVO987 – Culture Visuelle Moderne et Contemporaine Association**. 
 
 Research
 
